@@ -18,8 +18,14 @@ headers = {
 }
 
 
+
 class UploadAPI:
     def __init__(self, api_url, file_path):
+        """
+
+        :param api_url:
+        :param file_path:
+        """
         self.api_url = api_url
         self.file_path = file_path
 
